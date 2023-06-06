@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+header {
+  border-bottom: 3px solid #1900ff;
+  background-color: #413ef7;
+  padding: 10px 0 10px 0;
+  margin-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+}
+
+#container {
+  width: 350px;
+  height: 350px;
+  background: #111;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn-vermelho {
+  padding: 8px;
+  border: 1px solid red;
+  background-color: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.btn-vermelho:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.btn-verde {
+  padding: 8px;
+  border: 1px solid green;
+  background-color: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.btn-verde:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.btn-amarelo {
+  padding: 8px;
+  border: 1px solid yellow;
+  background-color: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.btn-amarelo:hover {
+  background-color: yellow;
+}
